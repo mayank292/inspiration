@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.img{
+   transition: transform .2s;
+    border: 10px solid #AAAAAA ;
+    width: 400px;
+    height: 500px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color: black;
+    position: sticky;
+}
+.link {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+
+}
+
+.link:hover{
+    transform: scale(1.0);
+}
